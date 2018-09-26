@@ -3,14 +3,16 @@ package com.prac.demorestseervices.model;
 import java.util.Date;
 
 public class User {
-	
+
 	private Integer id;
-	
+
 	private String name;
-	
+
 	private Date birthdate;
-	
-	
+
+	public User() {
+
+	}
 
 	public User(Integer id, String name, Date birthdate) {
 		super();
@@ -47,7 +49,5 @@ public class User {
 	public String toString() {
 		return "user [id=" + id + ", name=" + name + ", birthdate=" + birthdate + "]";
 	}
-	
-	
 
 }

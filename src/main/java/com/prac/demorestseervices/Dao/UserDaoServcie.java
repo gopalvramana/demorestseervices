@@ -26,7 +26,7 @@ public class UserDaoServcie {
 		return users;
 	}
 
-	public User save(User user) {
+	public User Save(User user) {
 		if (user.getId() == null) {
 			user.setId(++userCount);
 		}
